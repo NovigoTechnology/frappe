@@ -49,7 +49,7 @@ from .utils.jinja import (
 	render_template,
 )
 
-__version__ = "16.0.0-dev"
+__version__ = "15.0.2-Novigo"
 __title__ = "Frappe Framework"
 
 controllers = {}
