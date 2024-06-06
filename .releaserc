@@ -11,7 +11,7 @@
 		"@semantic-release/release-notes-generator",
 		[
 			"@semantic-release/exec", {
-				"prepareCmd": 'sed -ir -E "s/\"[0-9]+\.[0-9]+\.[0-9]+-Novigo\"/\"${nextRelease.version}-Novigo\"/" frappe/__init__.py'
+				"prepareCmd": 'sed -ir -E "s/\"[0-9]+\.[0-9]+\.[0-9]+\+Novigo\"/\"${nextRelease.version}+Novigo\"/" frappe/__init__.py'
 			}
 		],
 		[
