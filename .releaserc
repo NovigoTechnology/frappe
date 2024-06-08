@@ -1,6 +1,6 @@
 {
 	"branches": ["v15"],
-	"tagFormat":"v${version}-Novigo" ,
+	"tagFormat":"v${version}+Novigo" ,
 	"plugins": [
 		"@semantic-release/commit-analyzer", {
 			"preset": "angular",
