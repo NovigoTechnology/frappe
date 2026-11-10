@@ -141,7 +141,7 @@ def __getattr__(name: str):
 	raise AttributeError(f"module 'frappe' has no attribute {name!r}")
 
 
-__version__ = "17.0.0-dev"
+__version__ = "16.0.0+Novigo"
 __title__ = "Frappe Framework"
 
 if TYPE_CHECKING:  # pragma: no cover
